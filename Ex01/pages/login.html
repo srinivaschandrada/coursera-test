@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Log in or Sign up</title>
+<link rel="stylesheet" type="text/css" href="login.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div class="wrapper">
+<div class="interceptor">
+	<div class="codrops-top">
+		<a href="../example.html"><strong>&laquo Back to Home</strong></a>
+		<span class="right">
+                    <a href="https://www.google.co.in/" target="_blank">
+                        <strong>Google Search</strong>
+                    </a>
+                </span>
+                <div class="clr"></div>
+		</div>
+	<header>
+		<h1> Login Form</h1>
+	</header>
+	<section>
+		<div id="section">
+		<div id="signin" class="animate-form">
+			<form autocomplete="on">
+			<h1> Log In</h1>
+			<p>
+			<label for="username" name="username" required="required"  class="uname">Your Email or Username</label>
+			<input type="text" required="required" name="username" id="username"placeholder="Username"/>
+			</p>
+			<p>
+			<label for="password" name="password" class="upasswd" required="required" >Password</label>
+			<input type="password" name="password" id="password" required="required"placeholder="When your dad fucked your mother"/>
+			</p>
+			<p>
+			<label for="date" name="date" class="date" required="required">Date of Birth</label>
+			<input type="date" name="date" id="date" required="required" placeeholder="When your dad fucked your mother">
+			</p>
+			<p class="checkbox">
+			<input type="checkbox" name="keeplogin" id="keeplogin" value="keeplogin"/>
+			<label for="keeplogin">Keep me logged in</label>
+			</p>
+			
+			<p class="button">
+			<input type="submit" valvue="Login"/>
+			</p>
+			<p class="change_link">Not a member yet?<a href="#toregister" class="to_register"> Join us</a>
+			</p>
+			</form>
+		</div>
+	<div id="register" class="animate-form">
+	<form autocomplete="on">
+	<h1>Sign Up</h1>
+	<p>
+			<label for="usernamesignup" name="usernamesignup" required="required" class="uname">Your Username</label>
+			<input type="text" required="required" name="usernamesignup" id="usernamesignup"placeholder="Username"/>
+			</p>
+			<p> 
+                                    <label for="emailsignup" class="youmail" data-icon="e" > Your email</label>
+                                    <input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="mysupermail@mail.com"/> 
+                                </p>
+                                <p> 
+                                    <label for="passwordsignup" class="youpasswd" data-icon="p">Your password </label>
+                                    <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                                </p>
+                                <p> 
+                                    <label for="passwordsignup_confirm" class="youpasswd" data-icon="p">Please confirm your password </label>
+                                    <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                                </p>
+                                <p class="button"> 
+				<input type="submit" value="Sign up"/>
+				</p>
+                                <p class="change_link">  
+				Already a member ?
+				<a href="#tologin" class="to_register"> Go and log in </a>
+				</p>
+                            </form>
+                        </div>
+	</div>
+</section>
+</div>
+</div>
+</body>
+</html>

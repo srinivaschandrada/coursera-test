@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Example 1</title>
+<style type="text/css">
+header, section, footer, aside, nav, article, figure, figcaption {
+display: block;}
+
+body 
+{
+color: #666666;
+background-color: #f9f8f6;
+background-image: url("images/dark-wood.jpg");
+background-position: center;
+font-family: SansationLight;
+line-height: 1.4em;
+margin: 0px;
+}
+.wrapper 
+{
+width: 940px;
+margin: 20px auto 20px auto;
+border: 2px solid #000000;
+background-color: #ffffff;
+}
+.wrapper > header
+{
+	padding: 0px 0px 0px 0px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	display: block;
+	text-shadow: 2px 2px 9px rgba(0.9,0.4,1,0.2);
+    text-align: center;
+}
+
+header 
+{
+height:74px;
+background-image: url(images/header.jpg);
+}
+
+h1 
+{
+text-indent: -9999px;
+width: 940px;
+height: 74px;
+margin: 0px;
+}
+
+nav, footer {
+clear: both;
+color: #ffffff;
+background-color: #aeaca8;
+height: 30px;
+}
+nav ul
+ {
+margin: 0px;
+padding: 5px 0px 5px 30px;
+}
+nav li {
+display: inline;
+margin-right: 40px;
+}
+nav li a {
+color: #ffffff;}
+nav li a:hover, nav li a.current {
+color: #000000;}
+section.courses {
+float: left;
+width: 659px;
+border-right: 1px solid #eeeeee;}
+article {
+clear: both;
+overflow: auto;
+width: 100%;}
+hgroup {
+margin-top:40px;}
+figure {
+float: left;
+width: 290px;
+height: 220px;
+padding: 5px;
+margin: 30px;
+border: 1px solid #eeeeee;}
+figcaption {
+font-size: 90%;
+text-align: left;}
+aside {
+width: 230px;
+float: left;
+padding: 0px 0px 0px 0px;}
+aside section a {
+display: block;
+padding: 10px;
+border-bottom: 1px solid #eeeeee;}
+aside section a:hover {
+color: #985d6a;
+background-color: #efefef;}
+a {
+color: #de6581;
+text-decoration: none;}
+h1, h2, h3 {
+font-weight: normal;}
+h2 {
+margin: 0px 0px 5px 0px;
+padding: 0px;}
+h3 {
+margin: 0px 0px 10px 0px;
+color: #de6581;}
+aside h2 {
+padding: 0px 0px 10px 0px;
+color: #de6581;}
+footer {
+font-size: 80%;
+padding: 7px 0px 0px 20px;}
+
+.button input{
+	width:40%;
+	height:10%;
+	cursor: pointer;	
+	background: rgb(61, 157, 179);
+	padding: 8px 0px;
+	
+	color: #fff;
+	font-size: 20px;	
+	border: 1px solid rgb(28, 108, 122);	
+	margin-bottom: 0px;	
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;	
+	-webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+	        0px 0px 0px 3px rgb(254, 254, 254),
+	        0px 5px 3px 3px rgb(210, 210, 210);
+	   -moz-box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+	        0px 0px 0px 3px rgb(254, 254, 254),
+	        0px 5px 3px 3px rgb(210, 210, 210);
+	        box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+	        0px 0px 0px 3px rgb(254, 254, 254),
+	        0px 5px 3px 3px rgb(210, 210, 210);
+	}
+.button input:hover{
+	background: rgb(74, 179, 198);
+}
+.button input:active,
+.button input:focus{
+	background: rgb(40, 137, 154);
+	position: relative;
+	top: 1px;
+	border: 1px solid rgb(12, 76, 87);	
+	-webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+	   -moz-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+	        box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+}
+.button
+{
+margin:35px 0px;
+display:block;
+	text-align: right;
+
+}
+
+
+</style>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="wrapper">
+<header>
+<h1>Example 01</h1>
+<nav>
+<ul>
+<li class="parent"><a href="" class="current">Home</a>
+<li><a href="">HTML</a></li>
+<li><a href="">CSS</a></li>
+<li><a href="">Javascript</a></li>
+<li><a href="">Contact</a></li>
+</li>
+
+</ul>
+</nav>
+</header>
+<section class="courses">
+<article>
+<figure>
+<a href="http://www.w3schools.com/html/html_intro.asp" target="_blank">
+<img src="images/html_icon.png" alt="HTML"></a>
+<figcaption>HTML</figcaption>
+</figure>
+<hgroup>
+<h2>HTML</h2>
+<h3>Hyper Text Markup Language</h3>
+</hgroup>
+<p>HTML is a markup language for describing web documents (web pages).HTML stands for Hyper Text Markup Language.A markup language is a set of markup tags. HTML documents are described by HTML tags. Each HTML tag describes different document content.</p>
+</article>
+<article>
+<figure>
+<a href="http://www.w3schools.com/css/default.asp" target="_blank">
+<img src="images/css_icon.png" alt="CSS"></a>
+<figcaption>CSS</figcaption>
+</figure>
+<hgroup>
+<h2>CSS</h2>
+<h3>Cascading Style Sheet</h3>
+</hgroup>
+<p>CSS is a style sheet language used for describing the presentation of a document written in a markup language.</p>
+</article>
+<article>
+<figure>
+<a href="http://www.w3schools.com/js/default.asp" target="_blank">
+<img src="images/javascript.png" alt="JavaScript"></a>
+<figcaption>JavaScript</figcaption>
+</figure>
+<hgroup>
+<h2>Java Script</h2>
+<h3>Scripting Language</h3>
+</hgroup>
+<p>JavaScript is the programming language of HTML and the Web. Programming makes computers do what you want them to do. JavaScript is easy to learn.</p>
+</article>
+</section>
+<aside>
+<p class="button">
+<a href="pages/login.html" target="_blank">
+<input type="submit" value="login">
+</p>
+<section class:"popular-technologies">
+<h2>Popular Technologies</h2>
+<a href="">AngularJS(Javascript Framework)</a>
+<a href="">EmberJS(SproutCore 2.0)</a>
+<a href="">BatmanJS (Shopify)</a>
+<a href="">Google Closure (toolkit for javascript framework)</a>
+</section>
+<section class="contact-details">
+<h2>Contact</h2>
+<p>Drinkers Adda<br />
+27 Redchurch Street<br />
+Shoreditch<br />
+Amsterdam E2 7DP</p>
+</section>
+</aside>
+<footer>
+&copy; Drinker's Adda
+</footer>
+</div><!-- .wrapper -->
+</body>
+</html>

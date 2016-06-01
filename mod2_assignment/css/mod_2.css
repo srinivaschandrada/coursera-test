@@ -1,0 +1,81 @@
+/**************Basic********************/
+*{
+	box-sizing: border-box;
+	
+}
+body{
+	background-image:url(../images/cuisine_bg.jpg);
+	font-family: 'Playfair Display', serif;
+	font-weight: 600;
+}
+.row{
+	opacity: 0.65;
+	width: 100%;
+}
+p{
+	clear: both;
+	padding-left: 10px;
+	
+}
+.top{
+	float: right;
+	width: 30%;
+	text-align:center;
+	background-color: #FFA500;
+	margin-top: 0px;
+	margin-bottom: 1px;
+	border: 1px solid black;
+}
+
+
+div{
+	background-color: #90EE90;
+
+}
+h1{
+	text-align: center;
+	margin: 50px;
+}
+/**********Desktop***********/
+@media (min-width: 992px) {
+  .col-lg-4{
+    float: left;
+  
+  }
+  .col-lg-4 {
+    width: 30%;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+}
+/*************Tablet************/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,.col-md-12 {
+    float: left;
+    
+  }
+  .col-md-6 {
+    width: 45%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .col-md-12 {
+    width: 95%;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+/*************Mobile***************/
+@media (max-width:767px ){
+	.col-sm-12{
+		float: left;
+		
+	}
+	.col-sm-12{
+		width: 100%;
+		margin-top: 10px;
+	}
+}
